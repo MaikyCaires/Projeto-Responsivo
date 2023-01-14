@@ -1,0 +1,199 @@
+/*fontes usada */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=WindSong&display=swap');
+body{
+    background-color: #8cdfdb;
+    
+}
+html{
+    font-size: 16px;
+}
+.clearflix::after{
+    content: " ";
+    clear: both;
+    display: block;
+
+}
+.sessao-icons svg{
+    display: none;
+
+}
+/* Fontes */
+p{
+    color: #1fad9e;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.25rem;
+    word-spacing: 0.3rem;
+    font-weight: normal;
+}
+h2{
+    color: #0e8979;
+    font-family: 'Roboto', sans-serif;
+    font-size: 2rem;
+    letter-spacing: 0.2rem;
+}
+h1{
+    color: #e81262;
+    font-family: 'WindSong', cursive;
+    font-size: 3rem;
+}
+/* header */
+.main-header {
+    text-align: center;
+}
+.main-nav{
+    background-color: #303d6f;
+}
+.main-nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.main-nav a{
+    text-decoration: none;
+    display: block;
+    color: #1fad9e;
+    padding: 1.25rem;
+    font-size: 1.5rem;
+}
+.main-nav a:hover{
+    background-color: #45579f;
+}
+/* main-section */
+.sessao-icons{
+    text-align: center;
+}
+
+section{
+    padding: 1rem;
+}
+
+/* botao */
+.botao{
+    text-decoration: none;
+    padding: 1.50rem;
+    display: inline-block;
+    background-color: #e81262;
+    border-radius: 1.25rem;   
+    width: 10rem;
+    font-size: 1.20rem;
+    color: white;
+}
+svg{
+    color: #303d6f;
+}
+.botao:hover{
+    background-color: #a9003e;
+}
+.botao-left{
+    text-align: center;
+}
+/* footer */
+.footer-icons ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    
+}
+.footer-icons ul li{
+    display: inline-block;
+    padding: 1rem;
+   
+}
+.rodape{
+    background-color: #303d6f;
+    overflow: auto;
+    text-align: center;
+}
+.footer-icons{
+    background-color: #3d4c88;
+    height: 3.5rem;
+    text-align: center;
+}
+.footer-icons svg{
+    color: #1fad9e;
+}
+
+/*media */
+@media screen and (min-width: 48.75rem) {
+    
+    .main-nav{
+        background-color: transparent;
+        margin: 0;
+        padding: 0;
+        color: #1fad9e;
+        
+    }
+    .main-nav ul{
+        margin: 0;
+        padding: 0;
+    }
+    .main-nav ul li{
+        float: right;
+        display: block;
+        margin-top: 52px;
+        
+        
+    }
+    .main-header h1{
+        float: left;
+        margin-left: 1rem;
+        margin-bottom: 0;
+        margin-top: 3rem;
+       
+    }
+    .new-header{
+        background-color: #303d6f;
+    }
+    .new-header h2, .new-header p{
+        color: #8cdfdb;
+    }
+    .main-nav a:hover{
+        background-color: #a1afe8;
+    }
+    .rol1-2{
+        float: left;
+        width: 44%;
+        margin: 3%;
+    }
+    .sessao-left{
+        text-align: right;
+    }
+    .sessao-icons svg{
+        display: block;
+        margin: auto;
+        
+    }
+
+}
+
+@media screen and (min-width: 62.5rem){
+    .new-header{
+        background-image: url(../images/mar.jpg);
+        background-size: cover;
+        background-position: center;
+        height: 30rem;
+        padding-bottom: 10rem;
+    }
+}
+
+@media screen and (min-width: 64rem){
+    .rol1-2 .sessao-icons{
+        width: 40%;
+        float: right;
+        margin: 2%;
+        
+    }
+    .col1-2{
+        width: 45%;
+        float: left;
+        margin-left: 5%;
+    }
+
+    .sessao-left{
+        text-align: left;
+    }
+}
+    
